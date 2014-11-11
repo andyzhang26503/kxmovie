@@ -13,9 +13,10 @@ First you need to download, configure and build [FFmpeg](http://ffmpeg.org/index
 ### Usage
 
 1. Drop files from kxmovie/output folder in your project.
-2. Add frameworks: MediaPlayer, CoreAudio, AudioToolbox, Accelerate, QuartzCore, OpenGLES and libz.dylib .
+2. Add frameworks: MediaPlayer, CoreAudio, AudioToolbox, Accelerate, QuartzCore, OpenGLES and libz.dylib, libiconv.dylib.
 3. Add libs: libkxmovie.a, libavcodec.a, libavformat.a, libavutil.a, libswscale.a, libswresample.a
 
+user library path 添加 ffmpeg
 For play movies:
 
 	ViewController *vc;
