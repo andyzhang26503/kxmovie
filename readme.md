@@ -17,6 +17,7 @@ First you need to download, configure and build [FFmpeg](http://ffmpeg.org/index
 3. Add libs: libkxmovie.a, libavcodec.a, libavformat.a, libavutil.a, libswscale.a, libswresample.a
 
 user library path 添加 ffmpeg
+
 For play movies:
 
 	ViewController *vc;
